@@ -32,7 +32,7 @@ Why we got type hints according PEP 484 -- Type Hints (29-Sep-2014):
 
 I would redefine this list a bit:
 * It is a part of your automatic documentation (like with meaningful variable names). If another person gets your source code they understand it easier. 
-* You editor might thank you. Do to some new features in Python 3.10, the modern editors that do syntax highlighting and error checking have a harder time to infer what you mean. The more it need to think about what you mean, the slower your editor might get or even fail to show you syntax highlighting. 
+* You editor might thank you. Due to some new features in Python 3.10, the modern editors that do syntax highlighting and error checking have a harder time to infer what you mean. The more it needs to think about what you mean, the slower your editor might get or even fail to show you syntax highlighting. 
 * Static code analysis is really helpful. It showed me any problems ahead that I would have figured out the hard way otherwise. 
 * Packages like the just-in-time compiler numba can produce better results if you can tell it what the variables are. 
 
